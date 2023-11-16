@@ -1,0 +1,38 @@
+.transaction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(187, 187, 187);
+    border-style: outset;
+    padding: 10px 40px;
+    margin: 10px 0px;
+    transition: 1s;
+}
+
+.transaction-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.transaction:hover{
+    transition: 1s;
+    .btn-delete {
+        visibility: visible;
+    }
+}
+
+.btn-delete {
+    visibility: hidden;
+    margin-left: 10px;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
