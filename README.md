@@ -1,6 +1,6 @@
 # Virtual Transactions
 
-![Virtual Transactions Logo](url/to/logo.png)
+![Virtual Transactions Logo](https://www.cibc.com/content/dam/global-assets/icons/illustrative/grey-circle/device/online-banking-256x256.svg)
 
 ## Descripción del Proyecto
 
@@ -15,9 +15,9 @@ Virtual Transactions es una aplicación web sencilla desarrollada en React que t
 
 ## UI de la aplicación
 
-![Your balance](/public/YourBalance.png)
-![History](/public/History.png)
-![Add transaction](/public/AddTransaction.png)
+![Your balance](https://i.ibb.co/JmCwhx4/Your-Balance.png)
+![History](https://i.ibb.co/M2rnS6g/History.png)
+![Add transaction](https://i.ibb.co/4WwPHJR/Add-Transaction.png)
 
 ## Tecnologías Utilizadas
 
