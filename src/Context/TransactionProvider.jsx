@@ -4,18 +4,7 @@ import { AppReducer } from './AppReducer'
 const TransactionContext = createContext()
 export const useTransactionContext = () => useContext(TransactionContext)
 
-const transactions = [
-  {
-  id: (Math.random()*1000000),
-  text: "Payment",
-  amount: 150
-  },
-  {
-  id: (Math.random()*1000000),
-  text: "Book",
-  amount: -50
-  }
-]
+const transactions = []
 
 export const TransactionProvider = ({ children }) => {
   const [transaction, dispatch] = useReducer(AppReducer, transactions)

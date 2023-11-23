@@ -6,10 +6,16 @@ export const FormTransaction = () => {
 
   const onSubmitAction = (e) => {
     e.preventDefault()
+    
+    const today = new Date()
+    const date = [today.getMonth(), "-", today.getDate(), "-", today.getFullYear()]
+    const time = [today.getHours(), ":", (today.getMinutes()) > 9 ? today.getMinutes() : "0" + today.getMinutes(), ":", today.getSeconds()]
     const newTransaction = {
-      id: (Math.random()*1000000),
+      id: parseInt((Math.random()*1000000)),
       text: e.target[0].value,
-      amount: parseInt(e.target[1].value)
+      amount: parseInt(e.target[1].value),
+      date: date,
+      time: time
     }
     addTransaction(newTransaction)
     e.target[0].value = ""

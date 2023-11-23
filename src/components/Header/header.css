@@ -1,0 +1,38 @@
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    margin: 10px;
+    text-align: center;
+}
+
+.logo h1{
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.logo img{
+    height: 100px;
+}
+
+.links ul {
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+.links ul li a:hover {
+    -webkit-text-stroke: 0.2px black;
+    font-size: 23px;
+    transition: 1s;
+}

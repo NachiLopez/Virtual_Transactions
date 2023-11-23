@@ -13,6 +13,6 @@ export const TransactionItem = ( {transaction} ) => {
           <h4>{sign}${Math.abs(transaction.amount)}</h4>
         </div>
         <button onClick={() => deleteTransaction(transaction.id)} className='btn btn-danger btn-delete'>X</button>
-      </div>
+    </div>
   )
 }
